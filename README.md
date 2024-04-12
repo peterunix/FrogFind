@@ -19,4 +19,4 @@ php -S localhost:8000
 
 ![image](images/image.png)
 
-![image](images/image1.png)
+![image](images/image2.png)

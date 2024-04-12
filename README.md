@@ -14,3 +14,9 @@ cd FrogFind
 composer update
 php -S localhost:8000
 ```
+
+# Images
+
+![image](images/image.png)
+
+![image](images/image1.png)

@@ -59,15 +59,18 @@ function clean_str($str) {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <html>
+<style>
+<?php include 'style.css'; ?>
+</style>
 <head>
-	<title>FrogFind!</title>
+	<title>UnixSearch!</title>
 </head>
 <body>
 
 <?php if($show_results) { // there's a search query in q, so show search results ?>
 
     <form action="/" method="get">
-    <a href="/"><font size=6 color="#008000">Frog</font><font size=6 color="#000000">Find!</font></a> Leap again: <input type="text" size="30" name="q" value="<?php echo urldecode($query) ?>">
+    <a href="/"><font size=6 color="#008000">Unix</font><font size=6 color="#000000">Search!</font></a> Leap again: <input type="text" size="30" name="q" value="<?php echo urldecode($query) ?>">
     <input type="submit" value="Ribbbit!">
     </form>
     <hr>
@@ -77,7 +80,7 @@ function clean_str($str) {
     <?php echo $final_result_html ?>
     
 <?php } else { // no search query, so show new search ?>
-    <br><br><center><h1><font size=7><font color="#008000">Frog</font>Find!</font></h1></center>
+    <br><br><center><h1><font size=7><font color="#008000">Unix</font>Search!</font></h1></center>
     <center><h3>The Search Engine for Vintage Computers</h3></center>
     <br><br>
     <center>

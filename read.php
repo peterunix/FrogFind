@@ -121,6 +121,9 @@ function clean_str($str) {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
  
  <html>
+ <style>
+ <?php include 'style.css'; ?>
+ </style>
  <head>
      <title><?php echo $readability->getTitle();?></title>
  </head>

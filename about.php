@@ -5,6 +5,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <html>
+<style>
+<?php include 'style.css'; ?>
+</style>
 <head>
 	<title>FrogFind!</title>
 </head>
